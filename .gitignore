@@ -2,3 +2,4 @@ __pycache__/
 .venv/
 uv.lock
 .env
+.langgraph_api/
