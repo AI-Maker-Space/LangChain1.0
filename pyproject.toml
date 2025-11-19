@@ -1,0 +1,18 @@
+[project]
+name = "langchain1-0"
+version = "0.1.0"
+description = "LangChain 1.0 Guide"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.0.0",
+    "pymupdf>=1.24.0",
+    "jupyter>=1.0.0",
+    "langgraph>=1.0.3",
+    "langsmith>=0.4.43",
+    "langchain-community>=0.4.1",
+    "qdrant-client>=1.16.0",
+    "langchain-qdrant>=1.1.0",
+    "langchain-openai>=1.0.3",
+    "beautifulsoup4>=4.14.2",
+]

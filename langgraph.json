@@ -1,0 +1,11 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "agent": "./src/agent.py:build_simple_agent",
+        "hitl_agent": "./src/agent.py:build_hitl_agent",
+        "rag_agent": "./src/agent.py:build_rag_agent",
+        "multi_agent": "./src/agent.py:build_multi_agent_system"
+    },
+    "env": ".env"
+}
+
