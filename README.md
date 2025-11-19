@@ -46,7 +46,7 @@ The core logic is in the `src/` directory, but the best way to explore is via th
 *   `src/tools.py`: Simple example tools (`get_weather`, `magic_calculator`).
 *   `langchain_v1_0_guide.ipynb`: The interactive guide.
 *   `pyproject.toml`: Dependency management.
-*   `langgraph.json`: Configuration for deploying to LangSmith.
+*   `langgraph.json`: Configuration for deploying through LangSmith.
 
 ## Deploy with LangSmith
 
