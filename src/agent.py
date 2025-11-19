@@ -56,13 +56,13 @@ def build_hitl_agent():
     )
     return agent
 
-def build_rag_agent():
+async def build_rag_agent():
     """Creates an agent with RAG capabilities."""
     model = get_model()
     
     # Setup RAG tools
     try:
-        rag_tools = setup_rag_tools()
+        rag_tools = await setup_rag_tools()
     except Exception as e:
         print(f"Failed to setup RAG tools (likely missing keys): {e}")
         rag_tools = []
@@ -76,7 +76,7 @@ def build_rag_agent():
     )
     return agent
 
-def build_multi_agent_system():
+async def build_multi_agent_system():
     """
     Demonstrates a simple multi-agent setup.
     We create a 'Researcher' and a 'Writer' and a 'Supervisor' to manage them.
@@ -87,7 +87,7 @@ def build_multi_agent_system():
     # 1. Researcher Agent
     rag_tools = []
     try:
-        rag_tools = setup_rag_tools()
+        rag_tools = await setup_rag_tools()
     except:
         pass
         
